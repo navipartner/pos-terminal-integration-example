@@ -2,6 +2,10 @@
 This repo contains an example of how to integrate a POS Terminal into NaviPartners POS Solution from a Per-Tenant Extension.  
 The example assumes that your terminal has a cloud API like most modern terminals do.
 
+## Prerequisites
+You should install [our VSCode extension](https://marketplace.visualstudio.com/items?itemName=NaviPartner.np-retail-workflow-language-support) along with [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).  
+It will give you intellisense on parameters in your action javascript files, automatically maintain the minified codeunit string when you make changes to the javascript and enforce your javascript style.
+
 ## Example Components
 
 - A workflow codeunit & javascript combo that implements the frontend (javascript) and backend (AL) sides of the integration.
